@@ -1,0 +1,33 @@
+.meme--form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.meme--inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.meme--input {
+    border: 1px solid grey;
+    padding: 6px;
+    width: 48%;
+}
+
+.meme--btn {
+    color: white;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 19px;
+    transition: box-shadow 200ms;
+}
+
+.meme--btn:hover {
+    box-shadow: 0 0 30px -14px black;
+}
