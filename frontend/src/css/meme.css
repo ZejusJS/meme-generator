@@ -26,6 +26,7 @@
     cursor: pointer;
     font-size: 19px;
     transition: box-shadow 200ms;
+    user-select: none;
 }
 
 .meme--btn:hover {
