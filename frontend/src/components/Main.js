@@ -1,10 +1,10 @@
 import React from 'react'
 import Meme from './Meme'
 
-const Main = () => {
+const Main = ({ darkMode }) => {
   return (
     <main>
-        <Meme />
+      <Meme darkMode={darkMode} />
     </main>
   )
 }
